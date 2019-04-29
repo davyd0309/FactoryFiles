@@ -4,7 +4,7 @@ services:
     build: ./Warehouse
     ports:
       - "8082:8082"
-  factoryInRestApi:
+  factory_in_rest_api:
     build: ./FactoryInRestApi
     ports:
       - "8083:8083"
